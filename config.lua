@@ -6,7 +6,13 @@
 -- use jk to exit insert mode
 lvim.keys.insert_mode["jk"] = "<ESC>"
 -- curly brace bindings
-lvim.keys.insert_mode["<C-b>"] = "<Esc>a{" 
+lvim.keys.insert_mode["<C-b>"] = "<Esc>a{"
 lvim.keys.insert_mode["<C-m>"] = "<Esc>a}"
+
+lvim.plugins = {
+    -- Existing plugins...
+    {"rebelot/kanagawa.nvim"},
+}
+lvim.colorscheme = "kanagawa"
 
 
