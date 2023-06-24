@@ -1,2 +1,5 @@
 # lunarvim setup
-my current lunarvim config - only a few samll changes to the standard version.
+My current lunarvim setup.
+I changed theme and a few key bindings. 
+Other than that it is the standard version. 
+
