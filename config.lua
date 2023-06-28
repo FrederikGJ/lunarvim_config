@@ -6,8 +6,12 @@
 -- use jk to exit insert mode
 lvim.keys.insert_mode["jk"] = "<ESC>"
 -- curly brace bindings
-lvim.keys.insert_mode["<C-b>"] = "<Esc>a{"
-lvim.keys.insert_mode["<C-m>"] = "<Esc>a}"
+lvim.keys.insert_mode["<C-i>"] = "<Esc>a{"
+lvim.keys.insert_mode["<C-o>"] = "<Esc>a}"
+
+lvim.keys.insert_mode["<C-k>"] = "<Esc>a["
+lvim.keys.insert_mode["<C-l>"] = "<Esc>a]"
+
 
 lvim.plugins = {
     -- Existing plugins...
