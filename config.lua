@@ -13,11 +13,5 @@ lvim.keys.insert_mode["<C-k>"] = "<Esc>a["
 lvim.keys.insert_mode["<C-l>"] = "<Esc>a]"
 
 
-lvim.plugins = {
-    -- Existing plugins...
-    {"rebelot/kanagawa.nvim"},
-}
-
-lvim.colorscheme = "kanagawa"
 
 
