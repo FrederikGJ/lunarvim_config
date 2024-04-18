@@ -1,5 +1,5 @@
 # lunarvim setup
 My current lunarvim setup.
-> I changed theme and a few key bindings. 
+> I changed a few key bindings. 
 
 
